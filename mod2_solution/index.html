@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css.html">
+    <meta charset="utf-8">
+<title>Assignement</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 3px solid black;
+  padding: 10px; 
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  overflow: auto;
+}
+#p1 {
+  background-color: #b19cd9;
+  
+}
+#p2 {
+  background-color: #b19cd9;
+}
+
+#p3 {
+  background-color: #b19cd9;
+}
+
+/********** Large devices only **********/
+@media (min-width:  992px) {
+  #p1 {
+    width: 33.33%;
+    float:left;
+  }
+  #p2 {
+    width: 33.33%;
+    float:left;
+
+  }
+  #p3 {
+   width: 33.33%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 50%;
+      }
+  #p2 {
+    width: 50%;
+  }
+  #p3 {
+   width: 100%;
+  }
+
+  /********** Small devices only **********/
+@media (min-width:  767px) {
+  #p1 {
+    width: 100px;
+    height: 50px;  }
+  #p2 {
+    width: 100px;
+    height: 50px;
+  }
+  #p3 {
+    width: 100px;
+    height: 50px;
+  }
+
+  body {
+    background-color: blue;
+  }
+}
+
+</style>
+</head>
+<body>
+<h1> Our Menu </h1>
+
+<p id="p1">Chicken<br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p id="p2">Beef<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+<p id="p3">Sushi<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+</body>
+</html>
